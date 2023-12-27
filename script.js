@@ -72,6 +72,10 @@ const showWeatherData = (weatherData) => {
         weatherIcon.src = "images/snow.png";
     }else if(weatherCondition == "Mist") {
         weatherIcon.src = "images/mist.png";
+    }else if(weatherCondition == "Haze") {
+        weatherIcon.src = "images/haze.png";
+    }else if(weatherCondition == "Thunderstorm") {
+        weatherIcon.src = "images/thunder.png";
     }else{
         weatherIcon.src = "images/clear.png";
     }
