@@ -58,9 +58,16 @@ body {
     margin-top: 4px;
 }
 
+#error{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    display: none;
+}
+
 .weather-icon {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .weather-icon img {
@@ -72,6 +79,9 @@ body {
   font-weight: bold;
 }
 
+.weather-details{
+  display: none;
+}
 .weather-details h1 {
   font-size: 80px;
   font-weight: bold;
@@ -106,4 +116,25 @@ body {
 .humidity, .wind{
     margin-top: -6px;
     font-size: 28px;
+}
+
+
+/* Respinsive for mobile */
+@media (max-width: 500px) {
+  .card {
+    margin: 20px auto 0;
+  }
+  .search input {
+    width: 100%;
+  }
+  .col > div p {
+    font-size: 14px;
+  }
+  .col img {
+    width: 36px;
+  }
+  .weather-icon {
+    width: 50%;
+  }
+  
 }
