@@ -1,6 +1,7 @@
 # JavaScript Weather App Project
 
-**Live Demo:** [JavaScript Weather App]([#](https://codepen.io/jahidhasan018/full/RwdNXrL)) <!-- Replace "#" with the actual live link once the app is deployed. -->
+**Live Demo:** [JavaScript Weather App]([https://codepen.io/jahidhasan018/full/RwdNXrL]) <!-- Replace "#" with the actual live link once the app is deployed. -->
+![Screenshot](https://jahiddev.com/images/weather-app/weather-app.png) 
 
 ## Overview
 
